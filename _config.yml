@@ -1,5 +1,5 @@
-layout: stacked
-style: light
+layout: sidebar
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -40,12 +40,13 @@ projects:
   # vk: your_username
 
 topics:
-  - name: CSS
+  - name: Machine Learning
     web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+    image_url: https://www.google.com/search?client=ubuntu&hs=KKY&channel=fs&tbm=isch&q=machine+learning+icon&chips=q:machine+learning+icon,g_1:transparent:5-CWphs0uWI%3D&usg=AI4_-kQEJsEfTLRbEbsJuZJHu_50N-pmsA&sa=X&ved=0ahUKEwjA_NLewPrhAhWGWisKHZIZAi0Q4lYIKCgA&biw=1453&bih=746&dpr=0.9#imgrc=Yrk0G6aW4OcR0M
 
-  - name: Web design
+  - name: App development
+    image_url: https://www.google.com/search?client=ubuntu&channel=fs&biw=1453&bih=746&tbm=isch&sa=1&ei=X6nJXPWDNteo9QOV_pv4Aw&q=app+development+icon&oq=app+dev+icon&gs_l=img.1.1.0j0i7i30l2j0i7i5i30l7.43362.45780..47166...0.0..0.133.1662.0j13......1....1..gws-wiz-img.......0i67.fSQObcx55mA#imgrc=HMVZOM7sQdrLyM 
 
-  - name: Sass
+  - name: Competitive programming
     web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+    image_url: https://www.google.com/search?client=ubuntu&channel=fs&biw=1453&bih=746&tbm=isch&sa=1&ei=CKrJXLimOMv39QO15ISQDQ&q=code+trophy+icon+&oq=code+trophy+icon+&gs_l=img.3...31932.36360..36753...0.0..0.133.1729.0j14......1....1..gws-wiz-img.......35i39j0i8i30j0j0i7i30j0i7i5i30j0i8i7i30.-fjBOH6_AQc#imgrc=fTaxrIqXoP3n8M
