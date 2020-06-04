@@ -13,25 +13,22 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.navbar {
-    background-color: white;
-    font-family: 'Fjalla One', sans-serif;
-    float: right;
-}
 
-.section > sectionheading {
+.section > .sectionheading {
     font-family: 'Fjalla One', sans-serif;
     font-size: xx-large;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: rgb(106, 151, 247);
+    margin-bottom: 20px;
+    border-width: 4px;
 }
 
 .section > heading {
     font-family: 'Fjalla One', sans-serif;
-    border-style: solid;
-    border-color: rgb(247, 106, 106);
-    border-width: 5px;
-    border-left: none;
-    border-right: none;
-    border-top: none;
+    
     font-size: x-large;
 }
 
@@ -56,7 +53,6 @@
   
 .fa:hover {
     opacity: 0.7;
-    color: black;
     text-decoration: none;
 }
 
@@ -71,9 +67,45 @@
 
 .section > img {
     padding: 5px;
-    width: 65px;
+    width: 60px;
 }
 
 .section > ul {
     padding-left: 20px;
+}
+
+.navbar {
+    background-color:rgb(252, 93, 93);
+}
+
+.nav {
+    padding-right: 10px;
+    color: white;
+}
+
+.navbar-nav > :hover {
+    opacity: 0.1;
+    text-decoration: white;
+    background-color: black;
+}
+
+.nav > li> a{
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+}
+
+.section-navbar > ul > li:hover a {
+    background-color: tomato;
+    color:white;
+}
+
+.section-navbar :hover {
+    background-color: tomato;
+    color:white;
+}
+
+#achievements > li {
+    padding: 5px;
 }

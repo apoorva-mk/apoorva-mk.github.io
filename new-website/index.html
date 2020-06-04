@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
@@ -22,12 +21,14 @@
     </head>
     <body>
         <nav class="navbar">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Achievements</a></li>
+            <ul class="navbar-nav navbar-right nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#education-section">Education</a></li>
+                <li><a href="#experience-section">Experience</a></li>
+                <li><a href="#skills-section">Skills</a></li>
+                <li><a href="#projects-section">Projects</a></li>
+                <li><a href="#achievements-section">Achievements</a></li>
+                <li><a href="#extras-section">Extra-curriculars</a></li>
               </ul>
         </nav>
         <div class="container center">
@@ -37,47 +38,57 @@
             </div>
         </div>
         <div class="container center" style="font-size: x-large; margin: auto;">
-            <a href="#" class="fa fa-envelope"></a>
-            <a href="#" class="fa fa-github"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            
-            <a href="#" class="fa fa-youtube"></a>
+            <a href="mailto:apoorva.mk99@gmail.com" class="fa fa-envelope"></a>
+            <a href="https://github.com/apoorva-mk" class="fa fa-github"></a>
+            <a href="https://www.linkedin.com/in/apoorva-m-k" class="fa fa-linkedin"></a>
+            <a href="facebook.com/apoorva.m.krishnamurthy" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/Apoorva_MK" class="fa fa-twitter"></a>
+            <a href="https://www.youtube.com/channel/UCaWtOgFkJ0bWSmavaXUcWgQ?view_as=subscriber" class="fa fa-youtube"></a>
         </div>
         </br>
-    </br>
-        <div class="container section">
-            <sectionheading>Experience</sectionheading>
-            <br>
-            <img src="static/deshaw-logo.png" alt="D.E. Shaw">
-            <heading>D. E. Shaw, Software Engineering Intern</heading>
+        </br>
+        <div class="container section" id="education-section">
+            <div class="sectionheading">
+                Education
+            </div>
+            <img src="static/nitk-logo.png" alt="NITK">
+            <heading>National Institute of Technology, Karnataka</heading>
             <content>
-                <div style="padding-left: 40px;">
+                <div>
                     <ul>
-                        <li>Worked as a part of the Middleware team to enhance the security of the Kafka cluster to Kafka resources</li>
-                        <li>Developed a security tool which allows for mailing list based/ unix groups based access</li>
-                        <li>Developed services to provide application developers to give user permission.
-                        <li>Interfaces also provide permitted non super users to create topics with custom configuration</li>
-                        <li>Created CLI wrappers and REST API interfaces for the developed services</li>
-                        <li>Wrote unit tests</li>
-                    </ul>
+                        <li>Bachelor of Technology, Information Technology (2017-2021)</li>
+                        <li>CGPA: 9.03</li>
+                    </ul>       
                 </div>
             </content>
-            <br>
-            <img src="static/gsoc-logo.png" alt="D.E. Shaw">
-            <heading>Google Summer of Code, Developer</heading>
+        </div>
+        <div class="container section" id="experience-section">
+            <div class="sectionheading">
+                Experience
+            </div>
+            <div class="section" id="experience">
+                <script src="js/experience.js"></script>
+            </div>
+        </div>
+        <div class="container section" id="achievements-section">
+            <div class="sectionheading">
+                Achievements
+            </div>
             <content>
-                <div style="padding-left: 40px; padding-right:60px;">
-                    <ul>
-                        <li>Developed a Computer vision-based Android app written in Kotlin which uses Google Cloud APIs to
-                            conduct the Poverty Probability Index(PPI) survey. </li>
-                        <li>Applied image augmentation and preprocessing techniques for handling small data set size using Tensorflow and Scikit-learn frameworks.</li>
-                    </ul>
+                <div class="section" id="achievements">
+                    <script src="js/achievements.js"></script>
                 </div>
-                
             </content>
-
+        </div>
+        <div class="container section" id="extras-section">
+            <div class="sectionheading">
+                Extra-curriculars
+            </div>
+            <content>
+                <div class="section" id="extra">
+                    <script src="js/extracurriculars.js"></script>
+                </div>
+            </content>
         </div>
     </body>
 </html>
